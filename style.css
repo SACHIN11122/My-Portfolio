@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Trebuchet MS','Sora';
+    color: white;
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/2c/e0/e0/2ce0e00121f8d6c8bf20d6fd0723d28a.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#gient-box{
+    width: 100%;    /*is box ko hath mat lgaa*/
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* Fixed Profile */
+.profile{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+}
+.inner-pf{
+    background-color: #121415;
+    width: 18vw;
+    height: 94%;
+    position: fixed;
+    top: 3%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#pfp{
+    height: 13em;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(https://i.pinimg.com/736x/0b/97/09/0b9709190f5ff8bf44759faaed81082f.jpg);
+    background-size: cover;
+    margin-top: 3%;
+}
+.pf-box1{
+    height: 28%;
+    width: 75%;
+    font-size: 1vw;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pf-boxi{
+    width: 74%;
+}
+.pf-boxi p{
+    font-size: 0.9vw;
+    color: #cccbcb;
+}
+.pf-boxi h4{
+    font-size: 1.150vw;
+}
+.icons{
+    font-size: 1vw;
+    border-radius: 14px;
+    border: 1px solid #605f5f;
+    width: 16%;
+    height: 2.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pf-boxL{
+    width: 80%;
+}
+.lets-work{
+    font-size: 1.1vw;
+    color: black;
+    margin-top: 4%;
+    border-radius: 20px;
+    padding: 4%;
+    padding-left: 14.25%;
+    padding-right: 14.25%;
+    display: flex;
+    justify-self: center;
+    text-decoration: none;
+    background-color: #e5e5e5;
+}
+/* Hide sidebar on screens smaller than 768px (typical mobile width) */
+@media only screen and (max-width: 768px) {
+    .profile {
+        display: none;
+    }
+
+    .main {
+        margin-left: 0; /* Adjust main content margin if it was offset by sidebar */
+    }
+}
+/* content contianer____________________________________________________________________ */
+.main{
+    width: 77.5%;
+}
+/* Navbar */
+.navbar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.navbar button{
+    font-size: 1vw;
+    border: none;
+    height: 3.3em;
+    width: 8.5%;
+    margin-left: 1%;
+    border-radius: 20px;
+    background-color: #00000000;
+    backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(10px);
+}
+.navbar a{
+    text-decoration: none;
+}
+#lets-talk{
+    margin-left: 21%;
+    background-color: red;
+}
+/* Home Section */
+.home{
+    margin-top: 30%;
+    width: 100%;
+    align-items: flex-end;
+    font-size: 2vw;
+}
+.home button{
+    border: none;
+    font-size: 1.1vw;
+    font-weight: bold;
+    height: 2.7em;
+    width: 16%;
+    margin-left: 80%;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+.home a{
+    text-decoration: none;
+    color: black;
+}
+/* Projects Section */
+.main-container{
+    margin-top: 6%;
+    width: 100%;
+}
+.sml-title{
+    padding: 0.5%;
+    font-size: 1vw;
+    padding-right: 2%;
+    border: 0.5px solid #ffffff5c;
+    padding-left: 2%;
+    border-radius: 20px;
+}
+.big-title{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 4vw;
+}
+.pj-img{
+    margin: 2%;
+    width: 45%;
+    background-size: cover;
+    border-radius: 20px;
+}
+/* About Section */
+.divs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.about3{
+    padding: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 1vw;
+}
+.about3 h1{
+    font-size: 5vw;
+}
+.out-details{
+    display: flex;
+    justify-content: space-between;
+}
+.pera-div{
+    width: 72%;
+    font-size: 1.1vw;
+}
+.Details{
+    width: 25%;
+}
+.inner-det{
+    padding-bottom: 8%;
+    font-size: 1.020vw;
+}
+.inner-det span{
+    color: #9c9b9b;
+    font-size: 1vw;
+}
+/* Resumee Section */
+.pera-resume{
+    font-size: 1.1vw;
+    margin-bottom: 10%;
+}
+/*  My Favourite tools  */
+.mid-title{
+    font-size: 3vw;
+}
+.tools-box{
+    margin: 3%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.tool{
+    border: 1px solid #605f5f;
+    border-radius: 15px;
+    width: 10%;
+    padding: 0.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.input-box{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contect-info{
+    width: 47%;
+    border: none;
+    border-bottom: 1px solid #605f5f;
+    background-color: transparent;
+    padding-top: 3%;
+    font-size: 1.3vw;
+}
+.afew-words{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #605f5f;
+    background-color: transparent;
+    padding-top: 4%;
+    font-size: 1.5vw;
+}
+.main-container button{
+    color: black;
+    margin-top: 4%;
+    border-radius: 20px;
+    border: none;
+    background-color: #aa9fff;
+    font-size: 1.2vw;
+    width: 16%;
+    height: 2.3em;
+}
+.last{
+    width: 100%;
+    padding-top: 10%;
+    color: #e1e0e0;
+}
+.foot{
+    border-top: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    margin-top: 4%;
+}
